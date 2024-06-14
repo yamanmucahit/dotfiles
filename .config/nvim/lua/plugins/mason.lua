@@ -10,6 +10,7 @@ return{
         "prettier",
         --"tailwindcss-language-server",
         --"typescript-language-server",
+        "unocss-language-server",
    		},
    	},
    },
