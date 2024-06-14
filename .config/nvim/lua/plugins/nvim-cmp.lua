@@ -12,7 +12,6 @@ return{
 
           luasnip.filetype_extend("javascriptreact", { "html" })
           luasnip.filetype_extend("typescriptreact", { "html" })
-          luasnip.filetype_extend("svelte", { "html" })
           luasnip.filetype_extend("css", { "html" })
 
           require "nvchad.configs.luasnip"
