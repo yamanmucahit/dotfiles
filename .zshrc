@@ -7,12 +7,6 @@ if [ ! -d "$ZINIT_HOME" ]; then
    git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 fi
 
-# Chech if OHMYPOSH is installed, if not print instructions on how to install
-if ! command -v oh-my-posh &> /dev/null; then
-  echo "Oh My Posh executable is missing, to install run:
-  curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/.local/bin"
-fi
-
 # Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
 
@@ -74,3 +68,6 @@ alias c='clear'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+# Open fzf in tmux popup if on tmux, otherwise behave normally
+export FZF_DEFAULT_OPTS='--tmux'
