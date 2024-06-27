@@ -11,7 +11,7 @@ My personal config files
 
 ## Setup
 
-### Requirements
+### Dependencies
 
 - [stow](https://github.com/aspiers/stow) (optional)
 - [git](https://wiki.archlinux.org/title/git)
@@ -19,6 +19,8 @@ My personal config files
 - [tmux](https://wiki.archlinux.org/title/tmux) > **2.6**
 - [zsh](https://wiki.archlinux.org/title/zsh)
 - [Nerd Font](https://www.nerdfonts.com/) as your terminal font.
+
+### Installation
 
 ```
 mkdir ~/.config
