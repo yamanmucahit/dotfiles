@@ -9,7 +9,50 @@ My personal config files
 
 ## Dotfiles setup
 
-<details><summary>Neovim</summary>
+### Requirements
+
+- GNU stow
+- git
+
+```
+mkdir ~/.config
+git clone https://github.com/yamanmucahit/dotfiles.git
+cd dotfiles
+stow .
+
+```
+
+
+## Zsh Setup
+
+### Requirements
+
+- zsh
+- fzf
+- zoxide
+
+### Installation
+<details><summary>openSUSE Install Steps</summary>
+
+```
+sudo zypper install zsh fzf zoxide 
+```
+</details>
+<details><summary>Fedora Install Steps</summary>
+
+```
+sudo dnf install zsh fzf zoxide
+```
+</details>
+
+<details><summary>Arch Install Steps</summary>
+
+```
+sudo pacman -S zsh fzf zoxide
+```
+</details>
+## Neovim setup
+
 ### Requirements
 
 - Neovim >= **0.10.0** (needs to be built with **LuaJIT**)
@@ -46,12 +89,6 @@ sudo tar -C /opt -xzf nvim-linux64.tar.gz
 sudo ln -sf /opt/nvim-linux64/bin/nvim /usr/local/bin/
 ```
 </details>
-<details><summary>openSUSE Install Steps</summary>
-
-```
-sudo zypper gcc make git ripgrep fd unzip neovim
-```
-</details>
 <details><summary>Fedora Install Steps</summary>
 
 ```
@@ -63,22 +100,5 @@ sudo dnf install -y gcc make git ripgrep fd-find unzip neovim
 
 ```
 sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
-```
-</details>
-
-</details>
-
-<details><summary>zsh</summary>
-## Zsh Setup
-
-### Requirements
-
-- zsh
-- fzf
-- zoxide
-</details>
-<details><summary>clone the repo</summary>
-```
-git clone https://github.com/yamanmucahit/dotfiles.git
 ```
 </details>
