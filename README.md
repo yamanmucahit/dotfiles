@@ -26,8 +26,8 @@ stow .
 
 ### Requirements
 
-- zsh > 0.48.0
-- fzf
+- zsh
+- fzf > 0.48.0
 - zoxide
 
 ### Installation
