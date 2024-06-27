@@ -1,4 +1,5 @@
 # dotfiles
+
 My personal config files
 
 ![image](https://github.com/yamanmucahit/dotfiles/assets/108953087/4810cd90-90bd-420e-93a6-a7062766c08c)
@@ -22,7 +23,7 @@ My personal config files
 
 ### Installation
 
-```
+```bash
 mkdir ~/.config
 git clone https://github.com/yamanmucahit/dotfiles.git
 cd dotfiles
