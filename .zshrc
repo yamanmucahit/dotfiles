@@ -11,7 +11,7 @@ fi
 # Chech if OHMYPOSH is installed, if not print instructions on how to install
 if ! command -v oh-my-posh &> /dev/null; then
   echo "Oh My Posh executable is missing, to install run:
-  curl -s https://ohmyposh.dev/install.sh | sudo bash -s"
+  curl -s https://ohmyposh.dev/install.sh | sudo bash -s -- -d ~/bin"
 fi
 
 # Source/Load zinit
