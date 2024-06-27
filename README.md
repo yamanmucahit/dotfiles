@@ -22,12 +22,11 @@ stow .
 
 ```
 
-
 ## Zsh Setup
 
 ### Requirements
 
-- zsh
+- zsh > 0.48.0
 - fzf
 - zoxide
 
@@ -51,6 +50,21 @@ sudo dnf install zsh fzf zoxide
 sudo pacman -S zsh fzf zoxide
 ```
 </details>
+
+## Tmux Setup
+
+### Requirements
+
+- tmux > 2.6
+
+### Installation
+<details><summary>openSUSE Install Steps</summary>
+
+```
+sudo zypper install tmux
+```
+</details>
+
 
 ## Neovim setup
 
