@@ -1,7 +1,7 @@
 # dotfiles
 My personal config files
 
-!(screenshot#1.png)
+![image](screenshot#1.png)
 
 ## Contents
 
