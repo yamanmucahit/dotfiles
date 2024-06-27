@@ -1,7 +1,7 @@
 # dotfiles
 My personal config files
 
-![image](./screenshot#1.png)
+![screenshot#1](https://github.com/yamanmucahit/dotfiles/assets/108953087/9168b3e0-6f1e-48a6-a557-a98bfe322f87)
 
 ## Contents
 
