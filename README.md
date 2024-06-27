@@ -51,6 +51,7 @@ sudo dnf install zsh fzf zoxide
 sudo pacman -S zsh fzf zoxide
 ```
 </details>
+
 ## Neovim setup
 
 ### Requirements
