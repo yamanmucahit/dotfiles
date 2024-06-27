@@ -1,6 +1,5 @@
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
-OHMYPOSH_HOME="${usr/local/bin/oh-my-posh}"
 
 # Download Zinit, if it's not there yet
 if [ ! -d "$ZINIT_HOME" ]; then
@@ -11,7 +10,7 @@ fi
 # Chech if OHMYPOSH is installed, if not print instructions on how to install
 if ! command -v oh-my-posh &> /dev/null; then
   echo "Oh My Posh executable is missing, to install run:
-  curl -s https://ohmyposh.dev/install.sh | sudo bash -s -- -d ~/bin"
+  curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/.local/bin"
 fi
 
 # Source/Load zinit
@@ -22,6 +21,7 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
+zinit light lukechilds/zsh-nvm
 
 # Add in snippets
 zinit snippet OMZP::git
