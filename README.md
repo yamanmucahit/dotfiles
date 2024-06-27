@@ -90,6 +90,12 @@ sudo tar -C /opt -xzf nvim-linux64.tar.gz
 sudo ln -sf /opt/nvim-linux64/bin/nvim /usr/local/bin/
 ```
 </details>
+<details><summary>openSUSE Install Steps</summary>
+
+```
+sudo zypper install gcc make git ripgrep fd unzip neovim
+```
+</details>
 <details><summary>Fedora Install Steps</summary>
 
 ```
