@@ -7,6 +7,7 @@ local options = {
     typescriptreact = { "prettier" },
     javascript = { "prettier" },
     javascriptreact = { "prettier" },
+    markdown = { "prettier" }
   },
 
   -- format_on_save = {
