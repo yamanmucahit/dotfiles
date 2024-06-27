@@ -75,5 +75,5 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 
 ```
 sudo apt install zsh fzf zoxide
-chsw username # change shell command to switch to zsh
+chsh username # change shell command to switch to zsh
 ```
