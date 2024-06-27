@@ -11,7 +11,6 @@ return{
         "eslint-lsp",
         "tailwindcss-language-server",
         --"typescript-language-server",
-        "unocss-language-server",
    		},
    	},
    },
