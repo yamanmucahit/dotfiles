@@ -27,7 +27,6 @@ mkdir ~/.config
 git clone https://github.com/yamanmucahit/dotfiles.git
 cd dotfiles
 stow .
-
 ```
 
 ## External Dependencies
