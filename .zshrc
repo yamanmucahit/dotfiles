@@ -68,6 +68,3 @@ alias c='clear'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-
-# Open fzf in tmux popup if on tmux, otherwise behave normally
-export FZF_DEFAULT_OPTS='--tmux'
