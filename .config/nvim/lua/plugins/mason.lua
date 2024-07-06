@@ -1,17 +1,17 @@
-return{
-   {
-   	"williamboman/mason.nvim",
-   	oopts = {
-   		ensure_installed = {
-   			"lua-language-server",
+return {
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "lua-language-server",
         "stylua",
-   			"html-lsp",
-        "css-lsp" ,
+        "html-lsp",
+        "css-lsp",
         "prettier",
         "eslint-lsp",
         "tailwindcss-language-server",
         --"typescript-language-server",
-   		},
-   	},
-   },
+      },
+    },
+  },
 }
