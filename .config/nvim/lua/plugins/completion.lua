@@ -17,20 +17,7 @@ return {
           require "nvchad.configs.luasnip"
         end,
       },
-
-      -- ai based completion
-      {
-        "jcdickinson/codeium.nvim",
-        config = function()
-          require("codeium").setup {}
-        end,
-      },
-    },
-
-    config = function(_, opts)
-      table.insert(opts.sources, 1, { name = "codeium" })
-      opts.experimental = { ghost_text = true }
-      require("cmp").setup(opts)
-    end,
+    }
   }
+
 }
