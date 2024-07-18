@@ -32,7 +32,7 @@ autoload -Uz compinit && compinit
 zinit cdreplay -q
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/oh-my-posh.toml)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/pure.json)"
 
 # Keybindings
 bindkey -e
