@@ -20,15 +20,11 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#6C6C6C",
+          "foreground": "darkGray",
           "properties": {
-            "branch_ahead_icon": "<#88C0D0>\u21e1 </>",
-            "branch_behind_icon": "<#88C0D0>\u21e3 </>",
             "branch_icon": "",
-            "fetch_stash_count": true,
             "fetch_status": true,
-            "fetch_upstream_icon": true,
-            "github_icon": ""
+            "commit_icon": "@"
           },
           "style": "plain",
           "template": " {{ .HEAD }}{{ if or (.Working.Changed) (.Staging.Changed) }}*{{ end }} <cyan>{{ if gt .Behind 0 }}⇣{{ end }}{{ if gt .Ahead 0 }}⇡{{ end }}</> ",
