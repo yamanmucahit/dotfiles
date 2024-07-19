@@ -5,7 +5,7 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#81A1C1",
+          "foreground": "blue",
           "properties": {
             "style": "full"
           },
@@ -41,7 +41,7 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#A3BE8C",
+          "foreground": "yellow",
           "properties": {
             "style": "austin"
           },
@@ -57,9 +57,9 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#B48EAD",
+          "foreground": "magenta",
           "foreground_templates": [
-            "{{ if gt .Code 0 }}#BF616A{{ end }}"
+            "{{ if gt .Code 0 }}red{{ end }}"
           ],
           "properties": {
             "always_enabled": true
@@ -74,9 +74,9 @@
   ],
   "console_title_template": "{{ .UserName }}@{{ .HostName }}",
   "transient_prompt": {
-    "foreground": "#B48EAD",
+    "foreground": "magenta",
     "foreground_templates": [
-      "{{ if gt .Code 0 }}#BF616A{{ end }}"
+      "{{ if gt .Code 0 }}red{{ end }}"
     ],
     "template": "\u276f "
   },
