@@ -34,7 +34,7 @@ compinit -C
 
 zinit cdreplay -q
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# Load oh-my-posh with custom theme located at "~/.config/oh-my-posh/pure.json"
 eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/pure.json)"
 
 # Keybindings
