@@ -15,6 +15,9 @@ return {
   },
   opts = {
     filesystem = {
+      filtered_items = {
+        hide_dotfiles = false,
+      },
       window = {
         width = 30,
         mappings = {
@@ -23,4 +26,7 @@ return {
       },
     },
   },
+
+  -- set keymaps
+  vim.keymap.set('n', '<leader>ee', '<cmd>Neotree toggle=true<CR>', { desc = 'Toggle file explorer' }), -- toggle file explorer
 }
