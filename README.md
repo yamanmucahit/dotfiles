@@ -6,7 +6,7 @@ My personal config files
 
 ## Contents
 
-- neovim (Nvchad) config
+- neovim config
 - tmux config
 - zsh config
 
