@@ -3,18 +3,15 @@
 # Ensure PATH does not have duplicate entries
 typeset -U path PATH
 
-# Set PNPM_HOME
-export PNPM_HOME="~/.local/share/pnpm"
-
 # Define the PATH with each folder on a new line
 # Add new directories ABOVE "$path" for proper inclusion
 path=(
-~/bin
-~/.local/bin
-~/.fzf/bin
-~/.cargo/bin
-/opt/nvim-linux64/bin
-$PNPM_HOME
+~/bin 
+~/.local/bin 
+~/.fzf/bin 
+~/.cargo/bin 
+~/.local/share/fnm 
+/opt/nvim-linux64/bin 
 $path
 )
 
