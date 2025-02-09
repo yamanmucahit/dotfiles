@@ -11,7 +11,7 @@ path=(
 ~/.fzf/bin 
 ~/.cargo/bin 
 ~/.local/share/fnm 
-/opt/nvim-linux64/bin 
+/opt/nvim-linux-x86_64/bin 
 $path
 )
 
