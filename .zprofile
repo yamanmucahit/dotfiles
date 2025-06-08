@@ -1,5 +1,4 @@
-# =====================
-# Environment Variables
+
 # =====================
 export ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
@@ -117,9 +116,3 @@ eval "$(zoxide init --cmd cd zsh)"
 # ===================
 zinit cdreplay -q  # Replay compdefs after loading all plugins
 
-# fnm
-FNM_PATH="/home/yaman/.local/share/fnm"
-if [ -d "$FNM_PATH" ]; then
-  export PATH="/home/yaman/.local/share/fnm:$PATH"
-  eval "`fnm env`"
-fi
