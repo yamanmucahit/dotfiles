@@ -115,4 +115,3 @@ eval "$(zoxide init --cmd cd zsh)"
 # Final Initialization
 # ===================
 zinit cdreplay -q  # Replay compdefs after loading all plugins
-
