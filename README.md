@@ -39,8 +39,8 @@ stow .
 
 ### vim
 
-- [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) (for wsl)
-- [win32yank](https://github.com/equalsraf/win32yank)
+- [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
+- [win32yank](https://github.com/equalsraf/win32yank) (for wsl)
 
 
 ## Notes
