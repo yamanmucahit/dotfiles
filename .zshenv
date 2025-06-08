@@ -111,7 +111,5 @@ eval "$(zoxide init --cmd cd zsh)"
 # FZF integration
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# ===================
 # Final Initialization
-# ===================
 zinit cdreplay -q  # Replay compdefs after loading all plugins
